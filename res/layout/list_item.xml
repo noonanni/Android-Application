@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:textColor="@android:color/white"  
+        android:id="@+id/tvPubDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pubDate"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvLnk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here for Link"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    
+    
+
+</LinearLayout>

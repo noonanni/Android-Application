@@ -1,0 +1,81 @@
+<com.example.hookhockey.FlyOutContainer 
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:background="@drawable/blue"
+        >
+
+        <Button
+            android:id="@+id/btnLoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Hook Hockey  News Feed" />
+
+        <Button
+            android:id="@+id/btnLoad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Southern Fried Hockey News Feed" />
+
+         <Button
+             android:id="@id/btnLoad3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="UlsterHockey.com News Feed" />
+        
+        
+        <Button
+            android:id="@id/btnLoad4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="Irish Hockey Association News Feed " />
+        
+         <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:textColor="@android:color/white"
+            android:text="Return" />
+        
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <WebView
+            android:id="@+id/webView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+              android:layout_weight="1"
+            
+            />
+
+        <Button
+   android:background="@drawable/blue"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="toggleMenu"
+            android:text="Click Here For News Feeds" 
+              android:layout_weight="15"
+            
+            />
+
+    </LinearLayout>
+
+</com.example.hookhockey.FlyOutContainer>

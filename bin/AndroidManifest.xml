@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hookhockey"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="MainOne"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SampleActivity" />
+        <activity android:name=".MoreActivity" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".ContactsActivity" />
+        <activity android:name=".Abbey" />
+        <activity android:name=".League" />
+        <activity android:name=".ResultsFixtures" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".Noticeboard" />
+        <activity android:name=".Umpires" />
+        <activity android:name=".Podcasts" />
+        <activity android:name=".About" />
+        <activity android:name=".Interviews" />
+        <activity android:name=".RSSNewsFeed" />
+        <activity android:name=".RSSNewsFeed2" />
+        <activity android:name=".RSSNewsFeed3" />
+        <activity android:name=".RSSNewsFeed4" />
+        <activity android:name=".DivOne" />
+        <activity android:name=".DivTwo" />
+        <activity android:name=".DivThree" />
+        <activity android:name=".Avoca" />
+        <activity android:name=".Botanic" />
+        <activity android:name=".Bray" />
+        <activity android:name=".Boyne" />
+        <activity android:name=".Carlow"/>
+        <activity android:name=".Clontarf"/>
+        <activity android:name=".Corinthians"/>
+        <activity android:name=".Dublin_University" />
+        <activity android:name=".DublinLadies" />
+        <activity android:name=".Dalkey_Junior"/>
+        <activity android:name=".Enniscorthy"/>
+        <activity android:name=".Fingal"/>
+        <activity android:name=".Genesis"/>
+        <activity android:name=".Glennane" />
+        <activity android:name=".Gorey" />
+        <activity android:name=".Guinness" />
+        <activity android:name=".Hermes" />
+        <activity android:name=".Kilkenny" />
+        <activity android:name=".Loreto" />
+        <activity android:name=".Malahide" />
+        <activity android:name=".Monkstown"/>
+        <activity android:name=".Mount" />
+        <activity android:name=".Muckross" />
+        <activity android:name=".Mullingar" />
+        <activity android:name=".Nass" />
+        <activity android:name=".Navan_Men" />
+        <activity android:name=".NavanLadies" />
+        <activity android:name=".Newbridge" />
+        <activity android:name=".North_Kildare" />
+        <activity android:name=".Old_Alexandra" />
+        <activity android:name=".Our_Ladys" />
+        <activity android:name=".Pembroke" />
+        <activity android:name=".Portlaoise" />
+    </application>
+
+</manifest>

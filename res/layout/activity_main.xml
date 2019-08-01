@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        
+        android:id="@+id/btnLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh News !" 
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        />
+
+    <ListView
+            android:background="@drawable/blue"
+        android:id="@+id/lvFeedItems"
+        android:layout_width="match_parent"
+        android:layout_height="0sp" 
+        android:layout_weight="100">
+    </ListView>
+
+</LinearLayout>

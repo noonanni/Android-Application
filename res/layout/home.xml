@@ -1,0 +1,87 @@
+
+
+
+<com.example.hookhockey.FlyOutContainer 
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:background="@drawable/astro"
+        >
+
+        <WebView
+        android:id="@+id/webLeague"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="32.53" />
+        
+        
+         <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:textColor="@android:color/white"
+            android:text="Return" />
+        
+
+    </LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/astro"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/btnEd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:src="@drawable/edsports2" />
+
+    <ImageButton
+        android:id="@+id/btnLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rssfeed" />
+
+    <ImageButton
+        android:id="@+id/facebookbtn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/facebook" />
+
+    <ImageButton
+        android:id="@+id/twitterbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tweet2" />
+    
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggleMenu"
+            android:text="League Tables"
+            android:textColor="@android:color/white" />
+
+</LinearLayout>
+</com.example.hookhockey.FlyOutContainer>
